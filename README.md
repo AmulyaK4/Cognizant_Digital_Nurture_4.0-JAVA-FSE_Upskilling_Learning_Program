@@ -1,46 +1,40 @@
-# Cognizant_Digital_Nurture_4.0-JAVA-FSE_Upskilling_Learning_Program
-
-This repository contains practical exercises and learning tasks from the Cognizant Digital Nurture 4.0 – Java Full Stack Engineer (FSE) Upskilling Learning Program.
+This repository hosts practical exercises and learning activities from the Cognizant Digital Nurture 4.0 – Java Full Stack Engineer (FSE) Upskilling Learning Program. It’s designed to help build hands-on skills across key areas of full-stack Java development.
 
 📁 Repository Structure
 
 🔹 Module 1: Front-End Technologies
 
-HTML5: Fundamentals and structure of web pages
+HTML5: Basics of webpage structure and markup
 
-CSS3: Styling and layout techniques
+CSS3: Styling techniques and layout design
 
-JavaScript: Core JavaScript concepts and programming
+JavaScript: Essential programming concepts and scripting
 
-Bootstrap 5: Building responsive and mobile-first interfaces
+Bootstrap 5: Creating responsive and mobile-friendly web pages
 
 🔹 Module 2: Database Management
 
-ANSI SQL using MySQL: Writing and optimizing SQL queries using MySQL
+ANSI SQL with MySQL: Writing and optimizing SQL queries using MySQL
 
 🔹 Module 3: Core Java
 
-Core Java: Java programming basics, object-oriented programming, and core concepts
+Core Java: Fundamentals of Java programming, including object-oriented principles
 
-📝 Exercise Workflow
+📝 How the Exercises Were Completed
 
-Exercises were sourced from the official public repository of the Cognizant Digital Nurture 4.0 Java FSE program.
+The exercises included here were taken from the official Cognizant Digital Nurture 4.0 Java FSE program repository. Each task was carefully reviewed, and solutions were crafted based on the concepts covered in each module. All solutions have been tested and organized neatly into respective folders for easy access and review.
 
-Each problem statement was thoroughly reviewed and solved using concepts learned in the corresponding module.
-
-Solutions were tested, refined, and organized into well-structured folders for easy navigation and review.
-
-🚀 How to Use This Repository
+🚀 Getting Started with This Repository
 
 1)Clone the repository:
 
 git clone https://github.com/AmulyaK4/Cognizant-Digital-Nurture-4.0-JAVA-FSE-Upskilling-Learning-Program.git
-Navigate to the relevant module folder where you want to practice or review exercises.
+Navigate to the module folder where you'd like to practice or explore exercises.
 
-2)Open the code files in your preferred IDE or text editor.
+2)Open the code files using your favorite IDE or code editor.
 
-3)Run or compile Java programs using your IDE or command line.
+3)Run or compile Java programs directly within your IDE or via the command line.
 
-4)For database exercises, use MySQL Workbench or any MySQL client to run SQL queries.
+4)For database-related tasks, use MySQL Workbench or any other MySQL client to execute SQL queries.
 
-5)Explore and modify code to deepen your understanding.
+5)Feel free to experiment and tweak the code to deepen your learning experience
