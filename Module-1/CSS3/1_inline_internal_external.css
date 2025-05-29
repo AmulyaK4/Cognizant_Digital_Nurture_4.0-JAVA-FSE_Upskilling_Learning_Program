@@ -1,0 +1,12 @@
+/* Inline styles are used like this: <h1 style="color:red;">Hello</h1> */
+/* Internal styles go inside <style> tags in the HTML head */
+/* External styles like this file apply globally */
+
+body {
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: blue;
+  font-size: 28px;
+}

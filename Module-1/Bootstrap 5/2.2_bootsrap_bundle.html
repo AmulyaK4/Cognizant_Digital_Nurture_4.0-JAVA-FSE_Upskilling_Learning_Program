@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap JS Plugins Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+      Open Modal
+    </button>
+
+    <!-- Modal Component -->
+    <div class="modal fade" id="myModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content p-3">
+          <h5 class="modal-title">Hello from Bootstrap Modal!</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle JS (includes Popper.js) -->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

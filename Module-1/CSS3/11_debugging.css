@@ -1,0 +1,10 @@
+/* Use Chrome DevTools to debug and inspect styles */
+
+/* Add noticeable visual marker for debugging */
+.debug-box {
+  background-color: pink;
+  border: 2px dashed red;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}

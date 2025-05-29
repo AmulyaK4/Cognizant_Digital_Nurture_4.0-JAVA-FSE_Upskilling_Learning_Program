@@ -1,0 +1,21 @@
+/* Styles for devices below 768px width */
+@media (max-width: 768px) {
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .eventCard {
+    padding: 10px;
+    margin: 5px;
+  }
+}

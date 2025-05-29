@@ -1,0 +1,20 @@
+/* Event container spacing */
+.eventCard {
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #aaa;
+  outline: 2px dashed orange;
+}
+
+/* Form highlight on focus */
+input:focus, textarea:focus {
+  outline: 2px solid royalblue;
+}
+
+/* Visibility vs display */
+.hidden-example {
+  visibility: hidden;
+}
+.none-example {
+  display: none;
+}

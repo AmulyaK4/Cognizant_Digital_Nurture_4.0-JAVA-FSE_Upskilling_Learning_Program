@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Find Nearby Events</title>
+</head>
+<body>
+  <button onclick="getLocation()">Find Nearby Events</button>
+  <p id="locationOutput"></p>
+
+  <script>
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError, {
+          enableHighAccuracy: true,
+          timeout: 10000
+        });
+      } else {
+        document.getElementById("locationOutput").textContent = "Geolocation not supported.";
+      }
+    }
+
+    function showPosition(position) {
+      document.getElementById("locationOutput").textContent =
+        "Latitude: " + position.coords.latitude + ", Longitude: " + position.coords.longitude;
+    }
+
+    function showError(error) {
+      document.getElementById("locationOutput").textContent = "Error: " + error.message;
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Promo Video</title>
+</head>
+<body onbeforeunload="return 'Are you sure you want to leave? Your changes may not be saved.'">
+  <video width="320" height="240" controls oncanplay="document.getElementById('status').textContent='Video ready to play!'">
+    <source src="promo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p id="status"></p>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback</title>
+</head>
+<body>
+  <form>
+    <input type="text" id="phone" placeholder="Phone Number" onblur="validatePhone(this)">
+    <select onchange="showFee(this.value)">
+      <option value="0">Select Event</option>
+      <option value="100">Tech Talk - ₹100</option>
+      <option value="50">Music Show - ₹50</option>
+    </select>
+    <p id="feeDisplay"></p>
+    <textarea id="feedback" placeholder="Your feedback..." onkeyup="countChars(this)"></textarea>
+    <p id="charCount">Characters: 0</p>
+    <img src="poster.jpg" alt="Event" ondblclick="enlargeImage(this)" width="100">
+    <button type="button" onclick="alert('Feedback submitted!')">Submit</button>
+  </form>
+
+  <script>
+    function validatePhone(input) {
+      if (!/^[0-9]{10}$/.test(input.value)) {
+        alert("Invalid phone number!");
+      }
+    }
+
+    function showFee(value) {
+      document.getElementById("feeDisplay").textContent = "Fee: ₹" + value;
+    }
+
+    function countChars(textarea) {
+      document.getElementById("charCount").textContent = "Characters: " + textarea.value.length;
+    }
+
+    function enlargeImage(img) {
+      img.style.width = "200px";
+    }
+  </script>
+</body>
+</html>
